@@ -1,0 +1,121 @@
+footer{
+            background-color: darkslategray;
+            display: flex;
+        }
+       footer ul{
+            display: block;
+            width: 150;
+            height: 400;
+            margin-left: 55;
+           
+        }
+     footer a{
+           
+            color: white;
+            text-decoration: none;
+            font-size: 17;
+            
+        }
+        #first{
+            display: flex;
+            margin-left: 150;
+
+        }
+        #first img{
+            width:450;
+            height:450;
+        }
+        #first div{
+            width:450;
+            height:450;
+            background-color: darkorchid;
+            font-size: 30;
+        }
+
+
+
+        #second{
+            display: flex;
+            margin-left: 100;
+
+        }
+        #second img{
+            width:460;
+            height:500;
+        }
+        #second div{
+            width:600;
+            height: 500;
+            background-color:gray;
+            font-size: 25;
+        }
+
+        #third{
+            display: flex;
+            margin-left: 100;
+
+        }
+        #third img{
+            width:400;
+            height:400;
+        }
+        #third div{
+            width:600;
+            height: 400;
+            background-color:white;
+            font-size: 25;
+        }
+        #third h1{
+           
+            font-size: 55;
+            color: goldenrod;
+        }
+
+        nav a{
+           
+            
+           text-decoration: none;
+           font-size: 20;
+           margin-left: 25;
+           
+       }
+
+       #upwork{
+        font-size:35;
+        color: goldenrod;
+           }
+
+        nav input{
+            width: 300;
+            padding: 5;
+            border-radius: 50px;
+        }   
+
+        #bac{
+            background-image: url('63ed8d75f7f0e7f6717e0073_Screenshot 2023-02-15 at 5.57.01 PM-p-1080.png');
+             background-repeat: no-repeat;
+            width: 950;
+            height: 550;
+            margin-left: 150;
+            font-size: 35;
+            color: white;
+        }
+
+        #bac div{
+
+        display: flex;
+        }
+
+        #bac button{
+
+            color: white;
+            background-color: limegreen;
+            border-radius: 30px;
+            }
+
+            #bac button{
+
+                color: white;
+                background-color: limegreen;
+                border-radius: 30px;
+                }

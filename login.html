@@ -1,0 +1,69 @@
+<!DOCTYPE>
+<html>
+<head>
+<style>
+form{
+    margin-left: 300;
+    margin-top: 70;
+    width: 400;
+    height: 250;
+    border: 2px solid red;
+}
+p{
+    margin-left: 80;
+    margin-top: 30;
+}
+#a{
+width: 250;
+height: 30;
+}
+#b{
+ width: 250;
+height: 30;
+}
+#c{
+    margin-left: 50 ;
+ width: 100;
+height: 30;
+}
+</style>
+</head>
+<body>
+    <form>
+    <p><input type="text" id="a" placeholder="email"></p>
+    <span></span>
+    <p><input type="password" id="b" placeholder="password ">
+    <input type="checkbox" id="ch"></p>
+
+    <p><input type="submit" value="submit" id="c"></p>
+    </form>
+   
+</body>
+<script src="/home/hp/iti/upwork/with-boot/node_modules/jquery/dist/jquery.min.js"></script>
+<script>
+
+    $('#b').blur(function(){
+
+        if( $('#a').val()=== localStorage.getItem('email') && $('#b').val()=== localStorage.getItem('pass')){
+         alert('you have an account')
+        }
+
+        else{alert('please sign up')}
+    });
+
+  
+
+    
+    $('#ch').click(function(){
+
+        if( $('#ch').checked){
+            $('#b').type='text';
+        }
+        else{ $('#b').type='password';}
+
+    });
+   
+  
+
+</script>
+</html>
